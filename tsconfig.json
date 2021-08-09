@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "module": "commonjs",
+    "target": "es2017",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "declaration": true,
+    "skipLibCheck": true,
+    "lib": ["dom", "esnext"],
+    "jsx": "react-native",
+    "isolatedModules": false,
+    "esModuleInterop": true
+  },
+  "include": ["src/**/*"]
+}
